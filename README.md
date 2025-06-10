@@ -1,73 +1,34 @@
-# Welcome to your Lovable project
+# 🎓 Online Quiz Platform
 
-## Project info
+**Online Quiz Platform** is a secure and modern full-stack web application designed to help educational institutions conduct online quizzes for students. Built using the MERN stack (MongoDB, Express.js, React.js, Node.js), the platform features JWT-based authentication, role-based access for students and admins, randomized quiz delivery, automatic result storage, and security features like screen locking and tab switch detection. Students can register, log in, take quizzes with timers, and view results through interactive charts, while admins can manage quizzes, view submissions, and analyze performance through dashboards. All quiz questions, user details, and results are stored securely in MongoDB Atlas. The UI is designed using modern React components and Tailwind CSS for responsiveness and clarity. With full backend logic, screen monitoring, real-time submission, and a scalable database structure, this project serves as a robust, real-world application suitable for a B.Tech 3rd-year showcase.
 
-**URL**: https://lovable.dev/projects/75aee0b6-2d0a-43ec-9a39-3cbc473f8fae
+## 📁 Tech Stack
 
-## How can I edit this code?
+- **Frontend**: React.js, Tailwind CSS, Chart.js, Axios, React Router
+- **Backend**: Node.js, Express.js, JWT, bcrypt, dotenv
+- **Database**: MongoDB Atlas with Mongoose ODM
 
-There are several ways of editing your application.
+## 🚀 Features
 
-**Use Lovable**
+- ✅ JWT-based User Authentication (Login/Register)
+- ✅ Role-based access (Student/Admin)
+- ✅ Randomized quiz questions
+- ✅ Timer and auto-submit
+- ✅ Screen lock and tab switch detection
+- ✅ Result storage in MongoDB
+- ✅ Performance charts with Chart.js
+- ✅ Admin dashboard for quiz and user management
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/75aee0b6-2d0a-43ec-9a39-3cbc473f8fae) and start prompting.
+## 🔐 Security
 
-Changes made via Lovable will be committed automatically to this repo.
+- Fullscreen enforcement during quiz
+- Alert on switching tabs or windows
+- JWT-protected routes and secure token storage
+- Passwords hashed with bcrypt
 
-**Use your preferred IDE**
+## 🛠️ How to Run Locally
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/75aee0b6-2d0a-43ec-9a39-3cbc473f8fae) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+### 1. Clone the Repo
+```bash
+git clone https://github.com/DevS-2004/online-quiz-platform.git
+cd online-quiz-platform
